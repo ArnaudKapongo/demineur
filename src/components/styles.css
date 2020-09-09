@@ -1,0 +1,78 @@
+.board {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 30px;
+  }
+  
+  
+  
+  
+  
+  .sel input {
+    
+    align-items: center;
+    margin-right: 2px;
+    margin-left: 10px;
+  
+  }
+  
+  .gameOver {
+    pointer-events: none;
+  }
+  
+  .finish-msg {
+    margin-top: 20px;
+    width: 30%;
+    height: 50px;
+    text-align: center;
+    display: table;
+    background-color: #cc3e3e;
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .finish-msg span {
+    width: 100%;
+    vertical-align: middle;
+    display: table-cell;
+  }
+  
+  
+  .cell {
+    display: inline-block;
+    margin: 10px;
+    background: green;
+    border: 1px solid #fff;
+    line-height: 45px;
+    height: 45px;
+    text-align: center;
+    width: 45px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    vertical-align: top;
+  }
+  
+  .cell:hover {
+    background-color: rgb(177, 201, 223);
+  }
+  
+  .form {
+    margin-top: 30px;
+    margin-left: 160px;
+  }
+  
+  .btn {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    height: 40px;
+  }
